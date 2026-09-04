@@ -42,7 +42,7 @@ export const FastInquirySection: React.FC<FastInquirySectionProps> = () => {
 
     // Prepare FormData payload for InputHaven API
     const payload = new FormData();
-    payload.append('_form_id', '3fa060f52bb14270046ecce41d896bc4');
+    payload.append('_form_id', '914168973e93bda60f4eac1e7cbe1449');
     payload.append('course', formData.courseName);
     payload.append('name', formData.name);
     payload.append('age', formData.age);
