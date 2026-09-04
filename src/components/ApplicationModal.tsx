@@ -24,7 +24,7 @@ export const ApplicationModal: React.FC<ApplicationModalProps> = ({ isOpen, onCl
     e.preventDefault();
 
     const payload = new FormData();
-    payload.append('_form_id', '4954a2f562385d410d36f37aa220f2f3');
+    payload.append('_form_id', '7528a5136ff5cd4a4b598e1ca3ff5831');
     payload.append('course', '생성형AI × Java 풀스택 개발 부트캠프');
     payload.append('name', formData.name);
     payload.append('phone', formData.phone);
